@@ -1,6 +1,11 @@
 .opener{
-    background-image: url(step.jpg);
+    background-image: url(images/step.jpg);
     background-position: center;
     height: 100vh;
     background-size: cover;
+}
+.third{
+    background-image: url(images/mac.jpg);
+    height: 100vh;
+    background-position: center;
 }
