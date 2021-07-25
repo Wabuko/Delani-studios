@@ -18,3 +18,6 @@
 .num3{
     display: none;
 }
+.pictures img:hover{
+    transform: scale(1.10);
+}
