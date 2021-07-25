@@ -1,0 +1,33 @@
+$(document).ready(function(){
+    $('#design').click(function(){
+        $('#design').hide()
+    })
+    $('#design').click(function(){
+        $('.num1').toggle()
+    })
+    $('.num1').click(function(){
+        $('.num1').hide()
+        $('#design').show()
+    })
+
+    $('#dev').click(function(){
+        $('#dev').hide()
+    })
+    $('#dev').click(function(){
+        $('.num2').toggle()
+    })
+    $('.num2').click(function(){
+        $('.num2').hide()
+        $('#dev').show()
+    })
+    $('#product').click(function(){
+        $('#product').hide()
+    })
+    $('#product').click(function(){
+        $('.num3').toggle()
+    })
+    $('.num3').click(function(){
+        $('.num3').hide()
+        $('#product').show()
+    })
+})
