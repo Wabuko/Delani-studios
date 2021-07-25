@@ -21,3 +21,8 @@
 .pictures img:hover{
     transform: scale(1.10);
 }
+.sixth{
+    background-image: url(sixth/shop.jpg);
+    height: 100vh;
+    background-position: center;
+}
