@@ -1,4 +1,14 @@
-
+$(document).ready(function () {
+    $('#design').click(function () {
+        $('#design').hide()
+    })
+    $('#design').click(function () {
+        $('.num1').toggle()
+    })
+    $('.num1').click(function () {
+        $('.num1').hide()
+        $('#design').show()
+    })
 
     $('#dev').click(function () {
         $('#dev').hide()
